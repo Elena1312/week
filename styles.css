@@ -4,3 +4,67 @@ body {
 header {
     text-align: center;
 }
+.flex-container_1{
+width: 60%;
+height: 500px;
+display: flex;
+background-color: rgba(248, 232, 202, 0.847);
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.flex-element_1 {
+    width: 40%;
+    height: 90px;
+    display: flex;
+    background-color: rgb(255, 222, 178);
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    margin: 50px 50px;
+}
+.firstWrapper {
+    display: flex;
+    width: 900px;
+    height: 90px;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+.secondWrapper {
+    width: 90%;
+    height: 90px;
+    display: flex;
+    background-color: rgb(255, 222, 178);
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    margin: 40px 50px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.green_box {
+width: 40%;
+height: 500px;
+display: flex;
+background-color: rgba(196, 237, 189, 0.89);
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.flex-element {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(253, 252, 250);
+    margin-right: 30px;
+}
